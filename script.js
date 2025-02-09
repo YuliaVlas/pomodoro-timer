@@ -6,7 +6,7 @@ const breakButton = document.getElementById('break');
 let timeLeft;
 let timer;
 let isRunning = false;
-let mode; 
+let mode = "pomodoro"; 
 
 function formatTime(totalSeconds) {
     const minutes = Math.floor(totalSeconds / 60);
